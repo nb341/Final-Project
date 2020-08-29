@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sfen3002_FinalProject</string>
+
+    <string-array name="Sort_Group">
+    <item> Regular Display</item>
+    <item> Sort by Due Date</item>
+    <item> Sort by Subject</item>
+    <item> Group Due Date</item>
+    <item> Group by Subject</item>
+    </string-array>
+
+    </resources>

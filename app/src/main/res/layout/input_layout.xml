@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/task_edit"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="44dp"
+        android:text="Enter Task Name" />
+
+    <EditText
+        android:id="@+id/desc_edit"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="103dp"
+        android:text="Enter Task Description " />
+
+    <EditText
+        android:id="@+id/subject_edit"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="163dp"
+        android:text="Enter Subject or Course" />
+
+    <EditText
+        android:id="@+id/date_due_edit"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="299dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Choose Due Date" />
+
+    <EditText
+        android:id="@+id/time_due"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="229dp"
+        android:ems="10"
+        android:focusable="true"
+        android:clickable="true"
+        android:inputType="textPersonName"
+        android:text="Choose Time Due" />
+</RelativeLayout>
